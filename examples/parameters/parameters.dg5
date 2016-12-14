@@ -1,0 +1,27 @@
+{
+ "@array": [
+  [
+   "JsSymbol"
+  ]
+ ],
+ "@type": "group",
+ "@ver": 6229,
+ "JsSymbol": {
+  "!df": true,
+  "@type": "jswidget",
+  "background": {
+   "@type": "fill",
+   "color": 16777215,
+   "fillType": "solid",
+   "opacity": 0.1
+  },
+  "height": 218.0,
+  "js": "examples/parameters/parameters.js",
+  "left": 198.0,
+  "top": 147.0,
+  "width": 221.0
+ },
+ "clipContent": true,
+ "height": "100%",
+ "width": "100%"
+}

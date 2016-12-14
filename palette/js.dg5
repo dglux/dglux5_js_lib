@@ -1,0 +1,27 @@
+{
+ "@array": [
+  [
+   "JsSymbol"
+  ]
+ ],
+ "@type": "group",
+ "@ver": 6229,
+ "JsSymbol": {
+  "!df": true,
+  "@type": "jswidget",
+  "background": {
+   "@type": "fill",
+   "color": 16777215,
+   "fillType": "solid",
+   "opacity": 0.1
+  },
+  "height": 218.0,
+  "left": -1.4210854715202004e-14,
+  "top": 0.0,
+  "width": 221.0
+ },
+ "focusType": "isolate",
+ "height": "100%",
+ "layout": "absolute",
+ "width": "100%"
+}
