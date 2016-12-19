@@ -19,14 +19,14 @@
    "opacity": 0.1
   },
   "colorStr": "red",
-  "height": 236.0,
-  "js": "examples/parameters/parameters.js",
-  "left": 85.0,
+  "height": 383.0,
+  "js": "examples/size_sensor/sensor.js",
+  "left": 161.99999999999997,
   "num": 3,
-  "outputStr": "out:hello12345",
-  "str": "hello12345",
-  "top": 152.0,
-  "width": 347.0
+  "outputStr": "out:hello",
+  "str": "hello",
+  "top": 109.99999999999997,
+  "width": 465.0
  },
  "Text": {
   "@type": "text",
@@ -53,7 +53,7 @@
   "cornerRadius": 0,
   "fontSize": "30",
   "multiline": false,
-  "text": "demo for input and output parameters",
+  "text": "demo of widget size sensor",
   "textAlign": "left",
   "verticalAlign": "top"
  },

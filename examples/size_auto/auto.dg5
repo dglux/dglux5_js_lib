@@ -1,0 +1,97 @@
+{
+ "@array": [
+  [
+   "Text"
+  ],
+  [
+   "Group"
+  ]
+ ],
+ "@type": "group",
+ "@ver": 6229,
+ "Group": {
+  "@array": [
+   [
+    "JsSymbol"
+   ],
+   [
+    "JsSymbol1"
+   ]
+  ],
+  "@type": "group",
+  "JsSymbol": {
+   "!df": true,
+   "@type": "jswidget",
+   "colorStr": "red",
+   "js": "examples/size_auto/auto.js",
+   "num": 3,
+   "outputStr": "out:hello",
+   "str": "hello"
+  },
+  "JsSymbol1": {
+   "!df": true,
+   "@type": "jswidget",
+   "colorStr": "red",
+   "js": "examples/size_auto/auto.js",
+   "num": 3,
+   "outputStr": "out:hello",
+   "str": "hello"
+  },
+  "alignItems": "flex-start",
+  "border": {
+   "@type": "fill",
+   "color": 13421772,
+   "fillType": "solid"
+  },
+  "borderStyle": "solid",
+  "borderWidth": 1,
+  "clipContent": true,
+  "creationPolicy": "onDisplay",
+  "flexWrap": "wrap",
+  "height": 429.0,
+  "layout": "horizontal",
+  "left": 22.99999999999997,
+  "scaleContent": "none",
+  "top": 70.00000000000011,
+  "width": 330.0
+ },
+ "Text": {
+  "@type": "text",
+  "border": {
+   "@type": "fill",
+   "color": 16777215,
+   "gradient": {
+    "@array": [
+     {
+      "alpha": 1,
+      "color": "#000000",
+      "ratio": 0
+     },
+     {
+      "alpha": 1,
+      "color": "#ffffff",
+      "ratio": 100
+     }
+    ],
+    "@type": "gradient"
+   }
+  },
+  "color": 26367,
+  "cornerRadius": 0,
+  "fontSize": "30",
+  "left": 0.0,
+  "multiline": false,
+  "text": "demo of auto size widget which control the size from inside",
+  "textAlign": "left",
+  "top": 0.0,
+  "verticalAlign": "top"
+ },
+ "background": {
+  "@type": "fill",
+  "color": 3355443,
+  "fillType": "solid"
+ },
+ "clipContent": true,
+ "height": "100%",
+ "width": "100%"
+}
