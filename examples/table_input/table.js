@@ -2,8 +2,8 @@ define([],function(){
     
     var MyWidget = (function (_super) {
         __extends(MyWidget, _super);
-        function MyWidget(div) {
-            _super.call(this, div);
+        function MyWidget(div, model) {
+            _super.call(this, div, model);
             this.contentTable = document.createElement('table');
             this.contentTable.style.cssText="border: 1px solid blue;";
             div.appendChild(this.contentTable);
@@ -64,9 +64,9 @@ define([],function(){
         return MyWidget;
     }(dgluxjs.Widget));
 
-    function dgNew(div) {
-        return new MyWidget(div);
+    function dgNewWidget(div, model) {
+        return new MyWidget(div, model);
     }
-    return {'dgNew' : dgNew};
+    return {'dgNewWidget' : dgNewWidget};
 
 });

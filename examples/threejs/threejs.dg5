@@ -19,14 +19,14 @@
    "opacity": 0.1
   },
   "colorStr": "red",
-  "height": 302.0,
-  "js": "examples/size_sensor/sensor.js",
-  "left": 161.99999999999994,
+  "height": 512.0,
+  "js": "examples/threejs/threejs.js",
+  "left": 7.0,
   "num": 3,
-  "outputStr": "out:hello",
-  "str": "hello",
-  "top": 110.0,
-  "width": 351.0
+  "outputStr": "out:hello12345",
+  "str": "hello12345",
+  "top": 34.0,
+  "width": 768.0
  },
  "Text": {
   "@type": "text",
@@ -53,7 +53,7 @@
   "cornerRadius": 0,
   "fontSize": "30",
   "multiline": false,
-  "text": "demo of widget size sensor, resize the widget to see change",
+  "text": "demo for threejs",
   "textAlign": "left",
   "verticalAlign": "top"
  },
