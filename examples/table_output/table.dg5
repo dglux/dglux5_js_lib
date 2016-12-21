@@ -1,0 +1,82 @@
+{
+ "@array": [
+  [
+   "Data_Grid"
+  ],
+  [
+   "JsSymbol"
+  ],
+  [
+   "Text"
+  ]
+ ],
+ "@type": "group",
+ "@ver": 6229,
+ "Data_Grid": {
+  "@array": [
+   {
+    "@type": "gridColumn",
+    "type": "all",
+    "width": 200
+   }
+  ],
+  "@type": "datagrid",
+  "data": [
+   "@parent.JsSymbol.output"
+  ],
+  "height": 185.0,
+  "left": 11.999999999999943,
+  "top": 230.0,
+  "width": 639.0
+ },
+ "JsSymbol": {
+  "@type": "jswidget",
+  "background": {
+   "@type": "fill",
+   "color": 16777215,
+   "fillType": "solid",
+   "opacity": 0.1
+  },
+  "colorStr": "red",
+  "height": 152.0,
+  "js": "examples/table_output/table.js",
+  "left": 60.0,
+  "num": 3,
+  "outputStr": "out:hello12345",
+  "str": "hello12345",
+  "top": 55.0,
+  "width": 324.0
+ },
+ "Text": {
+  "@type": "text",
+  "border": {
+   "@type": "fill",
+   "color": 16777215,
+   "gradient": {
+    "@array": [
+     {
+      "alpha": 1,
+      "color": "#000000",
+      "ratio": 0
+     },
+     {
+      "alpha": 1,
+      "color": "#ffffff",
+      "ratio": 100
+     }
+    ],
+    "@type": "gradient"
+   }
+  },
+  "color": 26367,
+  "cornerRadius": 0,
+  "fontSize": "30",
+  "multiline": false,
+  "text": "demo for input and output parameters",
+  "textAlign": "left",
+  "verticalAlign": "top"
+ },
+ "clipContent": true,
+ "height": "100%",
+ "width": "100%"
+}

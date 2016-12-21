@@ -33,7 +33,7 @@ define([],function(){
             },
             "str": function (widget, value) {
                 widget.contentDiv.textContent  = "str updated: " + value;
-                widget.setModelValue('outputStr', 'out:' + value);
+                widget.updateModelValue('outputStr', 'out:' + value);
             },
             "num": function (widget, value) {
                 widget.contentDiv.textContent  = "num updated: " + value;
@@ -47,13 +47,16 @@ define([],function(){
             return MyWidget.myPropMap;
         };
 
+        MyWidget.prototype.destroy = function () {
+        	this.contentDiv.remove();
+        }
+
         return MyWidget;
     }(dgluxjs.Widget));
 
-    function create(div) {
+    function dgNew(div) {
         return new MyWidget(div);
     }
-
-    return {'create' : create};
+    return {'dgNew' : dgNew};
 
 });

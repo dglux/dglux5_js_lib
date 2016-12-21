@@ -34,15 +34,16 @@ define([],function(){
                 }
             };
         };
-
+        MyWidget.prototype.destroy = function () {
+            this.contentDiv.remove();
+        }
 
         return MyWidget;
     }(dgluxjs.Widget));
 
-    function create(div) {
+    function dgNew(div) {
         return new MyWidget(div);
     }
-
-    return {'create' : create};
+    return {'dgNew' : dgNew};
 
 });

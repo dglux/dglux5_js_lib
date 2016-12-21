@@ -26,14 +26,16 @@ define([],function(){
           // when "size":"sensor" in the definition, dglux will update the widget on size change
           this.contentDiv.textContent = "width: " + this.parentDiv.offsetWidth + "  height: " + this.parentDiv.offsetWidth;
         }
-
+        MyWidget.prototype.destroy = function () {
+            this.contentDiv.remove();
+        }
+        
         return MyWidget;
     }(dgluxjs.Widget));
 
-    function create(div) {
+    function dgNew(div) {
         return new MyWidget(div);
     }
-
-    return {'create' : create};
+    return {'dgNew' : dgNew};
 
 });
