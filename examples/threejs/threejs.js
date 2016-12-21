@@ -21,20 +21,20 @@ define(["lib/js/three/three.r82.min.js"],function(THREE){
             this.renderer = new THREE.WebGLRenderer();
             this.renderer.setSize( div.offsetWidth, div.offsetHeight );
             div.appendChild( this.renderer.domElement );
-            this.animateBind = this.animate.bind(this);
-            this.animateBind();
-        }
+            
+            var widget = this;
+            function animate() {
+                if (widget.destroyed) {
+                    return;
+                }
+                requestAnimationFrame( animate );
 
-        MyWidget.prototype.animate = function() {
-            if (this.destroyed) {
-                return;
+                widget.mesh.rotation.x += 0.005;
+                widget.mesh.rotation.y += 0.01;
+
+                widget.renderer.render( widget.scene, widget.camera );
             }
-            requestAnimationFrame( this.animateBind );
-
-            this.mesh.rotation.x += 0.005;
-            this.mesh.rotation.y += 0.01;
-
-            this.renderer.render( this.scene, this.camera );
+            animate();
         }
 
         MyWidget.prototype.destroy = function () {
