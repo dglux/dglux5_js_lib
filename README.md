@@ -7,7 +7,7 @@ create a `js` project in `files/proj` directory and copy all files into it
 
 ### examples
 
-open the js project in dglux, and open any dg5 in examples folder
+open the js project in dglux, then open any dg5 in examples folder to check the examples
 
 ### use js lib in other project
 
