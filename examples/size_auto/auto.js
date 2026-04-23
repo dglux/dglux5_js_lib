@@ -1,4 +1,4 @@
-define([],function(){
+dgdefine([],function(){
     
     var MyWidget = (function (_super) {
         __extends(MyWidget, _super);

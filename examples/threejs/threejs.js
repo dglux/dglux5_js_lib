@@ -1,4 +1,4 @@
-define(["lib/js/three/three.r82.min.js"],function(THREE){
+dgdefine(["lib/js/three/three.r82.min.js"],function(THREE){
     
     var MyWidget = (function (_super) {
         __extends(MyWidget, _super);

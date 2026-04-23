@@ -20,7 +20,7 @@ DGLux use its own AMD style module loader which require some additional js chang
 
 Please check the example at `examples/threejs`, it imports three.js from the `three` directory, and in the end of `three.r82.min.js`, we need these 3 lines to notify DGLux that the module is loaded.
 ```javascript
-define([],function(){
+dgdefine([],function(){
 	return THREE;
 });
 ```
